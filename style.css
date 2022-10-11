@@ -7,13 +7,91 @@ body {
     backdrop-filter: blur(5px);
 }
 
-@media screen and (max-width: 455px) {
+
+@media screen and (max-width: 380px) {
+    .Fundo {
+        width: 300px;
+        transition: 0.7s;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        height: 95px;
+        transition: 0.7s;
+    }
+
+    .box {
+        width: 290px;
+    }
+
+    .box2 {
+        width: 290px;
+    }
+
+    .imgs {
+        width: 290px;
+        height: 130px;
+    }
+
+    .box3 {
+        width: 290px;
+        transition: 0.7s;
+    }
+
+    .box4 {
+        width: 290px;
+        transition: 0.7s;
+    }
+
+    input {
+        width: 50px;
+        height: 30px;
+        transition: 0.7s;
+    }
+
+    .calcular {
+        width: 40px;
+        font-size: 6.5px;
+        transition: 0.7s;
+    }
+
+    .box h1 {
+        font-size: 22px;
+        transition: 0.7s;
+    }
+
+    .box h2 {
+        font-size: 8px;
+        transition: 0.7s;
+    }
+
+    .box3 h2 {
+        font-size: 16px;
+        transition: 0.7s;
+    }
+
+    .box4 h3 {
+        font-size: 8px;
+        transition: 0.7s;
+    }
+
+    .tema {
+        margin-top: -5px;
+        margin-right: 7px;
+        width: 28px;
+        font-size: 8px;
+        transition: 0.7s;
+    }
+}
+
+@media screen and (min-width:380px) and (max-width: 455px) {
     .Fundo {
         width: 350px;
+        transition: 0.7s;
     }
 
     .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
         height: 105px;
+        transition: 0.7s;
     }
 
     .box {
@@ -31,34 +109,51 @@ body {
 
     .box3 {
         width: 320px;
+        transition: 0.7s;
+    }
+
+    .box4 {
+        width: 320px;
+        transition: 0.7s;
     }
 
     input {
         width: 60px;
         height: 30px;
+        transition: 0.7s;
     }
 
     .calcular {
         width: 50px;
         font-size: 9px;
+        transition: 0.7s;
     }
 
     .box h1 {
         font-size: 26px;
+        transition: 0.7s;
     }
 
     .box h2 {
         font-size: 12px;
+        transition: 0.7s;
     }
 
     .box3 h2 {
         font-size: 18px;
+        transition: 0.7s;
+    }
+
+    .box4 h3 {
+        font-size: 10px;
+        transition: 0.7s;
     }
 
     .tema {
         margin-top: -5px;
         width: 28px;
         font-size: 8px;
+        transition: 0.7s;
     }
 }
 
@@ -91,6 +186,11 @@ body {
         height: 0px;
     }
 
+    .box4 {
+        width: 360px;
+        height: 0px;
+    }
+
     input {
         width: 70px;
         height: 30px;
@@ -110,7 +210,11 @@ body {
     }
 
     .box3 h2 {
-        font-size: 26px;
+        font-size: 22px;
+    }
+
+    .box4 h3 {
+        font-size: 10px;
     }
 
     .tema {
@@ -119,6 +223,13 @@ body {
         width: 35px;
         font-size: 10px;
     }
+
+    /* .Lateral {
+        width: 400px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px 8px 8px 0px;
+    } */
 }
 
 .container {
@@ -138,6 +249,7 @@ body {
     align-items: center;
     border-radius: 10px;
     transition: 0.7s;
+    box-shadow: 2px 2px 2px rgb(76, 76, 76);
 }
 
 .box {
@@ -179,7 +291,8 @@ body {
 }
 
 .box3 {
-    padding: 16px;
+    padding: 0px 16px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -191,6 +304,27 @@ body {
 .box3 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 6000;
+    color: rgb(10, 73, 103);
+    margin: 0;
+    text-align: center;
+    transition: 0.7s;
+    filter: opacity(0%)
+}
+
+.box4 {
+    padding: 0px 16px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    transition: 0.7s
+}
+
+.box4 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     color: rgb(10, 73, 103);
     margin: 0;
     text-align: center;
@@ -322,6 +456,10 @@ input:focus {
 }
 
 .dark .box2 h3 {
+    color: white;
+}
+
+.dark .box4 h3 {
     color: white;
 }
 
