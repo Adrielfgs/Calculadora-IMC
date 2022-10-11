@@ -50,10 +50,12 @@ body {
     .box h2 {
         font-size: 12px;
     }
+
     .box3 h2 {
         font-size: 18px;
     }
-    .tema{
+
+    .tema {
         margin-top: -5px;
         width: 28px;
         font-size: 8px;
@@ -110,7 +112,8 @@ body {
     .box3 h2 {
         font-size: 26px;
     }
-    .tema{
+
+    .tema {
         margin-top: 15px;
         margin-right: 5px;
         width: 35px;
@@ -119,7 +122,10 @@ body {
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
