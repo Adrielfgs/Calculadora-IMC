@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 455px) {
+    .Fundo {
+        width: 350px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        height: 105px;
+    }
+
+    .box {
+        width: 320px;
+    }
+
+    .box2 {
+        width: 320px;
+    }
+
+    .imgs {
+        width: 320px;
+    }
+
+    .box3 {
+        width: 320px;
+    }
+
+    input {
+        width: 60px;
+        height: 30px;
+    }
+
+    .calcular {
+        width: 50px;
+        font-size: 9px;
+    }
+
+    .box h1 {
+        font-size: 26px;
+    }
+
+    .box h2 {
+        font-size: 12px;
+    }
+    .box3 h2 {
+        font-size: 18px;
+    }
+    .tema{
+        margin-top: -5px;
+        width: 28px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .Fundo {
+        width: 420px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        height: 135px;
+    }
+
+    .box {
+        width: 400px;
+        height: 100px;
+    }
+
+    .box2 {
+        width: 400px;
+        height: 100px;
+    }
+
+    .imgs {
+        width: 400px;
+        height: 175px;
+    }
+
+    .box3 {
+        width: 400px;
+        height: 0px;
+    }
+
+    input {
+        width: 70px;
+        height: 30px;
+    }
+
+    .calcular {
+        width: 70px;
+        font-size: 12px;
+    }
+
+    .box h1 {
+        font-size: 32px;
+    }
+
+    .box h2 {
+        font-size: 16px;
+    }
+
+    .box3 h2 {
+        font-size: 26px;
+    }
+    .tema{
+        margin-top: 15px;
+        margin-right: 5px;
+        width: 35px;
+        font-size: 10px;
+    }
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    padding: 16px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.box h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(10, 73, 103);
+    transition: 0.7s
+}
+
+.box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: -15px;
+    transition: 0.7s
+}
+
+.box2 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px;
+    transition: 0.7
+}
+
+.box3 {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    transition: 0.7s
+}
+
+.box3 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 6000;
+    color: rgb(10, 73, 103);
+    margin: 0;
+    text-align: center;
+    transition: 0.7s;
+    filter: opacity(0%)
+}
+
+.imgs {
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcular {
+    border-radius: 0px 8px;
+    border: 0;
+    padding: 8px;
+    margin-left: 20px;
+    background-color: rgb(6, 12, 75);
+    cursor: pointer;
+    color: white;
+}
+
+.calcular:hover {
+    background-color: rgb(45, 45, 249);
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.img1 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img2 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img3 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img4 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img5 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img6 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img7 {
+    transition: 0.5s all ease-in-out;
+}
+
+.img1:hover {
+    transform: scale(1.2);
+}
+
+.img2:hover {
+    transform: scale(1.2);
+}
+
+.img3:hover {
+    transform: scale(1.2);
+}
+
+.img4:hover {
+    transform: scale(1.2);
+}
+
+.img5:hover {
+    transform: scale(1.2);
+}
+
+.img6:hover {
+    transform: scale(1.2);
+}
+
+.img7:hover {
+    transform: scale(1.2);
+}
+
+.tema {
+    align-self: flex-end;
+    border-radius: 0px 8px;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dark .tema {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.dark .Fundo {
+    background-color: rgb(30, 30, 30);
+}
+
+.dark .box h1 {
+    color: rgb(175, 209, 239)
+}
+
+.dark .box h2 {
+    color: white;
+}
+
+.dark .box2 h3 {
+    color: white;
+}
+
+.dark input {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.dark {
+    backdrop-filter: brightness(80%) blur(5px);
+}
+
+.dark .calcular {
+    background-color: rgb(45, 45, 249);
+    color: white;
+}
+
+.dark .calcular:hover {
+    background-color: rgb(6, 12, 75);
+    color: white;
+}
+
+.dark .box3 h2 {
+    color: rgb(175, 209, 239)
+}

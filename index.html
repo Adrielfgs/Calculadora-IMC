@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <div class=Fundo>
+        <div class="box">
+            <button class="tema" onclick="Tema()">Tema</button>
+            <h1>Calculadora de IMC</h1>
+            <h2>Descubra o nivel da sua saúde!</h2>
+        </div>
+        <div class="box2">
+            <h3>Altura: </h3>
+            <input type="number" placeholder="Mt" id="altura_input" maxlength="4S">
+            <h3>Peso: </h3>
+            <input type="number" placeholder="Kg" id="peso_input" maxlength="6">
+            <button class="calcular" type="submit" onclick="Calcular()">Calcular</button>
+        </div>
+        <div class="imgs">
+            <img class="img1" src="img/IMC1.png" alt="">
+            <img class="img2" src="img/IMC2.png" alt="">
+            <img class="img3" src="img/IMC3.png" alt="">
+            <img class="img4" src="img/IMC4.png" alt="">
+            <img class="img5" src="img/IMC5.png" alt="">
+            <img class="img6" src="img/IMC6.png" alt="">
+            <img class="img7" src="img/IMC7.png" alt="">
+        </div>
+        <div class="box3">
+            <h2 id="IMC"></h2>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
