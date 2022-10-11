@@ -1,6 +1,6 @@
 # CalculadoraIMC2
 
-![preview](./.img/Tela1.png)
+![preview](img/Tela1.png)
 
 Mini-Projeto construído para ampliar Portfólio
 
