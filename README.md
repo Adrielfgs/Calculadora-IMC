@@ -1,7 +1,7 @@
 # CalculadoraIMC2
 
- <div> <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="img/Tela1.png">
-</div>
+<div> <img align="top" alt="Preview1" height="300" style="border-radius:50px;" src="img/Tela1.png"></div>
+<div> <img align="top" alt="Preview2" height="300" style="border-radius:50px;" src="img/Tela2.png"></div>
 
 Mini-Projeto construído para ampliar Portfólio
 
