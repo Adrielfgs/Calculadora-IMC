@@ -7,7 +7,7 @@
 
 ## Mini-Projeto construído para ampliar Portfólio
 
-[🔗​ Clique aqui para acessar](<p>Confira o <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>)
+[🔗​ Clique aqui para acessar](https://adrielfgs.github.io/Calculadora-IMC/)
 
 
 
