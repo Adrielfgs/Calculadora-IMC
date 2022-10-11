@@ -7,7 +7,7 @@
 
 ## Mini-Projeto construído para ampliar Portfólio
 
-[🔗​ Clique aqui para acessar](https://adrielfgs.github.io/CalculadoraIMC2/)
+[🔗​ Clique aqui para acessar](https://adrielfgs.github.io/Calculadora-IMC/)
 
 ## ⚒️​ Tecnologias
 
