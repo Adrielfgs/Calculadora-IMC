@@ -1,6 +1,8 @@
 # CalculadoraIMC2
 
-![preview](img/Tela1.png), (img/Tela2.png)
+<div style="width: 50px"> img src="img/Tela1.png"</div>
+<div style="width: 50px"> img src="img/Tela2.png"</div>
+<!-- ![preview](img/Tela1.png), (img/Tela2.png) -->
 
 Mini-Projeto construído para ampliar Portfólio
 
